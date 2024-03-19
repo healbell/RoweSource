@@ -12773,4 +12773,17 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
+    [SPECIES_TOGEKISS] =
+    {
+        .move = MOVE_AIR_SLASH,
+        .modification = SIGNATURE_MOD_POWER,
+        .variable = 90,
+        .modification2 = SIGNATURE_MOD_SECOND_TYPE,
+        .variable2 = TYPE_FLYING,
+        .modification3 = SIGNATURE_MOD_MODIFY_FIELD,
+        .variable3 = FIELD_SELF_SET_TAILWIND,
+        .chance3 = 20,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
 };
